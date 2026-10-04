@@ -1,0 +1,36 @@
+name: Rapport de bug
+description: Signaler un comportement inattendu
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Que s'est-il passé ?
+      description: Décrivez le bug et le comportement attendu.
+      placeholder: Quand je fais X, il se produit Y au lieu de Z.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Étapes de reproduction
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / messages d'erreur
+      render: shell
+  - type: dropdown
+    id: os
+    attributes:
+      label: Système
+      options:
+        - Windows
+        - macOS
+        - Linux
