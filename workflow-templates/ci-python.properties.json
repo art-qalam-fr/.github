@@ -1,0 +1,7 @@
+{
+  "name": "CI Python",
+  "description": "Install, compile-check and test a Python project.",
+  "iconName": "octicon play",
+  "categories": ["continuous-integration", "python"],
+  "filePatterns": ["requirements.txt$", "pyproject.toml$", "setup.py$"]
+}
