@@ -1,0 +1,7 @@
+{
+  "name": "CI Node.js",
+  "description": "Install, build and test a Node.js project.",
+  "iconName": "octicon play",
+  "categories": ["continuous-integration", "javascript"],
+  "filePatterns": ["package.json$"]
+}
